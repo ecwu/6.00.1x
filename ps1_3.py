@@ -1,4 +1,4 @@
-alphabet = "abcdefghijklmnopqrstuvwxyz" #standard alphabet
+alphabet = "abcdefghijklmnopqrstuvwxyz"
 characters = 0
 counter1 = 0
 saver1 = ""#save output strings
