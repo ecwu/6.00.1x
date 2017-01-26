@@ -1,13 +1,15 @@
-counter = int(0)
-counter2 = int(0)
-compare = "a"
-storage = ""
-for characters in s:
-	counter2 = 0
-	while characters > compare:
-		counter2 += 1
-		compare = s[counter2]
-	storage = s[int(counter):int(counter2)]
-	counter += 1
-	compare = "a"#Reset Compare
-print("Longest substring in alphabetical order is: " + str(storage))
+from itertools import count
+
+def long_sub(input_string):
+    maxsubstr = input_string[0:0] # empty slice (to accept subclasses of str)
+    for start in range(len(input_string)): # O(n)
+        for end in count(start + len(maxsubstr) + 1): # O(m)
+            substr = input_string[start:end] # O(m)
+            if len(substr) != (end - start): # found duplicates or EOS
+                break
+            if sorted(substr) == list(substr):
+                maxsubstr = substr
+    return maxsubstr
+
+sub = (long_sub(s))
+print ("Longest substring in alphabetical order is: " + str(sub))
