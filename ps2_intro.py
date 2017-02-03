@@ -1,9 +1,9 @@
-monthlyPaymentRate = annualInterestRate/12.0
+interestrate = 0.18/12.0
 def payment(balance,time):
     while time != 0:
         minpay = balance * 0.02
         unpaid = balance - minpay
-        interest = unpaid * monthlyPaymentRate
+        interest = unpaid * interestrate
         print('Minimum Payment: ' + str(minpay) + 'Unpaid Balance: ' + str(unpaid) + 'Interest: ' +str(interest))
         time -= 1
         balance = interest + unpaid
