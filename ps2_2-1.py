@@ -5,6 +5,8 @@ def balances(minpay,balance,irt):
         interest = unpaid * monthlyPaymentRate
         balance = interest + unpaid
         irt += 1
+        if irt > 15:
+            break
     return irt
 
 def times(bal,adda):
