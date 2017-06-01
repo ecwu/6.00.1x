@@ -2,6 +2,8 @@
 
 > edX MITx 6.00.1x SUMMER 2017
 
+[TOC]
+
 ----
 
 ## Python Basics
@@ -50,5 +52,56 @@ move left, move right, scan, print, write, do nothing.
 
 ### Language
 
+Experience are complex but **legal combinations of primitives** in programming language
 
+primitive constructs of programming language: numbers, strings, simple operators.
+
+#### Syntax
+
+* `"hi"*5` not syntactically valid
+* `3.2*5` syntactically valid
+
+##### Static Semantics:
+
+Which syntactically valid strings have meaning.
+
+##### Full Semantics:
+
+The meaning associated with a syntactically correct string of symbols with no static semantic errors
+
+Programming languages: have only one meaning but may not be what programmer intended. (Bugs)
+
+#### Errors
+
+1. Syntactic errors
+
+   Common and easily caught
+
+2. Static semantic errors
+
+   Some languages check it.
+
+   **can cause unpredictable behavior**
+
+3. Different meaning that what programmer intended.
+
+   Program crashes, stop running
+
+   Program runs forever(Dead loop)
+
+   Program give an answer but different than expected
+
+> 1. Determines whether a string is legal
+>
+>    **Syntax**
+>
+> 2. Determines whether a string has meaning
+>
+>    **Static Semantics**
+>
+> 3. Assigns a meaning to a legal sentence
+>
+>    **Semantics**
+
+### Type
 
