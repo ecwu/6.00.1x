@@ -122,6 +122,19 @@ Can be typed directly in a shell or stored in a file that is read into the shell
     * bool: `True` or `False`
     * NoneType
   * Non-scalar (have internal structure that can be accessed)
+* Casting (Float to int)
 
+#### Expressions
 
+`<Object>` `<operator>` `<Object>`
+
+* `i+j`	sum
+* `i-j` 	difference
+* `i*j`	product
+* `i/j`	division
+* `i//j`	**int** division
+* `i%j`	remainder
+* `i**j`	power
+
+### Variables
 
