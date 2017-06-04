@@ -105,3 +105,23 @@ Programming languages: have only one meaning but may not be what programmer inte
 
 ### Type
 
+- Program: Sequence of definitions and commands
+- Commands(Statements)
+
+
+Can be typed directly in a shell or stored in a file that is read into the shell and evaluated
+
+#### Objects
+
+* Programs manipulate data objects
+* Object have a type that defined the kinds of things programs can do to them
+* Objects are 
+  * Scalar (cannot be subdivided)
+    * int: integers
+    * float: real numbers
+    * bool: `True` or `False`
+    * NoneType
+  * Non-scalar (have internal structure that can be accessed)
+
+
+
