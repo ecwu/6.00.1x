@@ -129,12 +129,34 @@ Can be typed directly in a shell or stored in a file that is read into the shell
 `<Object>` `<operator>` `<Object>`
 
 * `i+j`	sum
-* `i-j` 	difference
-* `i*j`	product
-* `i/j`	division
-* `i//j`	**int** division
-* `i%j`	remainder
-* `i**j`	power
+  * `i-j` difference
+  * `i*j`product
+  * `i/j`division
+  * `i//j`**int** division
+  * `i%j`remainder
+  * `i**j`power
 
 ### Variables
+
+* `name` `=` `Value`
+
+
+* re-bind
+
+### Operators and Branching
+
+* `i>j`
+* `i>=j`
+* `i<j`
+* `i<=j`
+* `i==j`
+* `i!=j`
+
+#### Branching Programs
+
+* A test
+* A block of code to execute if the test is `True`
+* An optional block of code to execute if the test is `False`
+
+
 
